@@ -28,7 +28,7 @@ addBtn.addEventListener("click", () => {
            <i class="fa-solid fa-trash"> </i>
         </li>`
     input.value = ""
-    //! add butonu tıklandıktan sonra inputun içindeki değeri silinsin diye
+    //! 👆add butonu tıklandıktan sonra inputun içindeki değeri silinsin diye
     taskCompleted();
   }
 })
