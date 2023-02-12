@@ -61,7 +61,7 @@ myTodos.addEventListener("click", (event) => {
   {
     event.target.nextElementSibling.classList.toggle("line-through")
     // tik e tıklandıgında gelecekteki elementin üstüne çizgi çek bir daha da geri al dedim
-    // event.target.parentElement.style.backgroundColor = "green"
+    event.target.parentElement.style.backgroundColor = "green"
     // çizgiyi çektikten sonra yeşil yap parentelemete
     event.target.parentElement.classList.toggle("done")
 
